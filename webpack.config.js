@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const { merge } = require("webpack-merge")
 
 const commonConfig = {
+  module: {
+    rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"] }],
+  },
   plugins: [new HtmlWebpackPlugin()],
 }
 
