@@ -1,1 +1,1 @@
-(()=>{"use strict";document.body.appendChild(((e="hello world")=>{const n=document.createElement("div");return n.innerHTML=e,n})()),console.log("watch")})();
+(()=>{"use strict";document.body.appendChild(((e="hello world")=>{const o=document.createElement("div");return o.innerHTML=e,o})()),console.log("devserver hello")})();
