@@ -1,3 +1,5 @@
-import { a } from "./a"
+import component from "./component"
 
-console.log(a)
+document.body.appendChild(component())
+
+console.log("devserver hello")
