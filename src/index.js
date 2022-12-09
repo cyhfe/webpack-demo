@@ -1,13 +1,7 @@
-import "./style.css"
+import 'react'
+import 'react-dom'
 import component from "./component"
+import './main.css'
+document.body.appendChild(component('hello world5'))
 
-document.body.appendChild(component())
-
-function createLogoContainer() {
-  const logo = document.createElement("div")
-  logo.setAttribute("id", "logo")
-  return logo
-}
-document.body.appendChild(createLogoContainer())
-
-console.log("devserver hello")
+console.log(1)

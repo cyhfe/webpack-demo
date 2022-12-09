@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: cornsilk;
+
+  background-image: url("./imgs/pexels-photo-4835419.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

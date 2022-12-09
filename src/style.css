@@ -1,9 +1,0 @@
-body {
-  color: red;
-}
-
-#logo {
-  width: 100px;
-  height: 100px;
-  background-image: url(./assets/webpack.svg);
-}
